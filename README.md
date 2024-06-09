@@ -2,7 +2,7 @@
 
 For users without a github subscription or organisation account, it is impossible to use self-hosted runners for all repositories. So it will be a good idea to run runners as docker containers in a single instance.
 
-#### Get the latest runner image
+### Get the latest runner image
 
 Pull the latest image from Github Container Registry,
 
@@ -10,7 +10,7 @@ Pull the latest image from Github Container Registry,
 docker pull ghcr.io/dmjoh/github-runner:latest
 ```
 
-#### Activate the runner    
+### Activate the runner    
 
 **Goto Repository > Settings > Actions > Runners**
 
