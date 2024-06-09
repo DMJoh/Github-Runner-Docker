@@ -16,7 +16,7 @@ docker pull ghcr.io/dmjoh/github-runner:latest
 
 Replace the values in `< >` with appropriate parameters from **Configure** block. See the screenshot below:
 
-<div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAt4AAABYCAYAAADC4vCzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAg
+![](data:image/*;base64,iVBORw0KGgoAAAANSUhEUgAAAt4AAABYCAYAAADC4vCzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAg
 AElEQVR4nO3df1xUdb748VcycQiZUddhraAM0AItCFsm2SB/DFrgukm/oLawbcV1V7a6WLs71k3s
 brJ970r3btRtxdtNrIQ0xyJHTcZKptBhEwdTMRXWZEyXKZBR49Dgfv+Y4ZfyS0Xatvfz8eBRM3N+
 fM7n8zmf8z6fz+ccL9GOGPUPhBBCCCGEEBfVkG87AUIIIYQQQnwffEuBdzCTHl+OpWI3+w4coMq2
@@ -267,8 +267,7 @@ IqY6h9lPWrwvS/hXct55I76rBv+fjD+04XsbdOtn5rJ+RZZ32P7qGSSOdVJdLSeZ6CB15PtAHvMX
 3zMuB+Y/F1D6ZQjRE87lH01SqbUWkr+mGiXSQOQAvtXln4bLgfmPGSTGpUnQ/T0x+IH395jLWkTx
 V0byNlopfTUD/7fyvEOOQvhIHfke8Dv/oXAhvrNOlfHif5pRfrac0i0F7fPy+6N21RLy98eQ87aN
 9c8Y5dZVfKcN/lQTIYQQQgghvoekx1sIIYQQQohBIIG3EEIIIYQQg0ACbyGEEEIIIQbB/wed/T6O
-jaTFlwAAAABJRU5ErkJggg=="/></div>
-
+jaTFlwAAAABJRU5ErkJggg==)
 Use the values from the above screenshot and create your runner.
 
 ```bash
