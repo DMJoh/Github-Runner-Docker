@@ -23,7 +23,3 @@ Use the values from the above screenshot and create your runner.
 ```bash
 docker run -it -d --name="<NAME_OF_PROJECT>" -e GITHUB_URL="<GITHUB_URL>" -e GITHUB_TOKEN="<TOKEN_FOR_RUNNER>" -e RUNNER_NAME="NAME_OF_THE_RUNNER" -e RUNNER_LABEL="<LABEL_NAME>" --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/dmjoh/github-runner:latest
 ```
-
-
-
-
