@@ -39,6 +39,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
+        platforms: linux/amd64,linux/arm64
         push: true
         tags: ${{ env.REGISTRY }}/${{ steps.string.outputs.lowercase }}/${{ env.IMAGE_NAME }}:latest
     - name: Delete old images
