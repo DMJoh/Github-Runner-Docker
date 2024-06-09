@@ -1,4 +1,7 @@
 FROM ubuntu:22.04
+LABEL maintainer='DMJoh'
+LABEL version='v1.0'
+LABEL org.opencontainers.image.source = "https://github.com/DMJoh/Github-Runner-Docker"
 ARG GITHUB_URL
 ARG GITHUB_TOKEN
 ARG RUNNER_NAME
